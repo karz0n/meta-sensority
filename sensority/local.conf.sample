@@ -1,0 +1,13 @@
+MACHINE ?= "raspberrypi3"
+DISTRO ?= "poky"
+PACKAGE_CLASSES ?= "package_ipk"
+SDKMACHINE ?= "x86_64"
+USER_CLASSES ?= "image-mklibs image-prelink"
+PATCHRESOLVE = "noop"
+
+DL_DIR ?= "${TOPDIR}/../downloads"
+SSTATE_DIR ?= "${TOPDIR}/../sstate-cache"
+
+LICENSE_FLAGS_WHITELIST = "commercial"
+
+CONF_VERSION = "1"
