@@ -1,0 +1,4 @@
+Available images:
+ * sensority-image
+
+Build them by running: bitbake <image>
