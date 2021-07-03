@@ -1,0 +1,5 @@
+Available images:
+ * sensority-image
+ * sensority-dev-image
+
+Build them by running: bitbake <image>

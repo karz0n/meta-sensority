@@ -1,5 +1,5 @@
 # Machine Selection
-MACHINE ?= "raspberrypi3"
+MACHINE ?= "qemux86-64"
 
 # Default policy config
 DISTRO ?= "poky"
@@ -23,7 +23,7 @@ DL_DIR ?= "${TOPDIR}/../downloads"
 SSTATE_DIR ?= "${TOPDIR}/../sstate-cache"
 
 # Exclude some features (save time during build)
-DISTRO_FEATURES_remove = " x11 wayland vulkan 3g opengl"
+DISTRO_FEATURES_remove = " wayland vulkan 3g"
 
 # Specify license white list
 LICENSE_FLAGS_WHITELIST = "commercial"

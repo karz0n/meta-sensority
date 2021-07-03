@@ -1,14 +1,16 @@
-DESCRIPTION = "A console-only sensority image."
+SUMMARY = "Sensority console-only production image"
 LICENSE = "MIT"
 
-IMAGE_FEATURES += "\
+IMAGE_FEATURES = "\
     splash \
-    ssh-server-openssh \
-"
-
-IMAGE_INSTALL = "\
-    packagegroup-core-boot \
-    packagegroup-core-full-cmdline \
 "
 
 inherit core-image
+
+CORE_IMAGE_EXTRA_INSTALL += "\
+    libgcc \
+    libatomic \
+    libstdc++ \
+"
+
+require common.inc
