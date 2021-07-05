@@ -7,3 +7,8 @@ CORE_IMAGE_EXTRA_INSTALL_append = "\
     e2fsprogs-badblocks \
     e2fsprogs-resize2fs \
 "
+
+CORE_IMAGE_EXTRA_INSTALL_append = "\
+    poco \
+    mosquitto \
+"
