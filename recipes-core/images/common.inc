@@ -9,6 +9,6 @@ CORE_IMAGE_EXTRA_INSTALL_append = "\
 "
 
 CORE_IMAGE_EXTRA_INSTALL_append = "\
-    poco \
-    mosquitto \
+    poco-dev \
+    mosquitto-dev \
 "
