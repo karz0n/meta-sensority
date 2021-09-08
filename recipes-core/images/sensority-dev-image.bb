@@ -16,6 +16,7 @@ CORE_IMAGE_EXTRA_INSTALL += "\
 
 CORE_IMAGE_EXTRA_INSTALL += "\
     googletest \
+    cmake \
 "
 
 require common.inc
