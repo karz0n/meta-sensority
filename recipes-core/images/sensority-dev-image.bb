@@ -12,11 +12,18 @@ inherit core-image
 CORE_IMAGE_EXTRA_INSTALL += "\
     packagegroup-core-full-cmdline \
     packagegroup-self-hosted \
+    packagegroup-custom-devtools \
 "
 
 CORE_IMAGE_EXTRA_INSTALL += "\
-    googletest \
-    cmake \
+    googletest-dev \
+    googletest-dbg \
+    poco-dev \
+    poco-dbg \
+    mosquitto-dev \
+    mosquitto-dbg \
+    boost-dev \
+    boost-dbg \
 "
 
 require common.inc
