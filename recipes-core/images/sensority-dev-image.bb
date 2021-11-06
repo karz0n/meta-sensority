@@ -24,6 +24,8 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     mosquitto-dbg \
     boost-dev \
     boost-dbg \
+    grpc-dev \
+    grpc-dbg \
 "
 
 require common.inc

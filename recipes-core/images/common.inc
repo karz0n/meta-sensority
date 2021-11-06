@@ -7,4 +7,5 @@ CORE_IMAGE_EXTRA_INSTALL_append = "\
     poco \
     mosquitto \
     mosquitto-clients \
+    grpc \
 "
