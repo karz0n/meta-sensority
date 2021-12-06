@@ -4,7 +4,7 @@ PR = "r0"
 
 inherit packagegroup
 
-RDEPENDS_${PN} = "\
+RDEPENDS:${PN} = "\
     e2fsprogs \
     e2fsprogs-e2fsck \
     e2fsprogs-mke2fs \

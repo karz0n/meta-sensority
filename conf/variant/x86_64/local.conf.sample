@@ -11,7 +11,7 @@ PACKAGE_CLASSES ?= "package_ipk"
 SDKMACHINE ?= "x86_64"
 
 # Additional image features
-USER_CLASSES ?= "image-mklibs image-prelink"
+USER_CLASSES ?= "buildstats"
 
 # Interactive shell configuration
 PATCHRESOLVE = "noop"
@@ -23,10 +23,10 @@ DL_DIR ?= "${TOPDIR}/../downloads"
 SSTATE_DIR ?= "${TOPDIR}/../sstate-cache"
 
 # Exclude some features (save time during build)
-DISTRO_FEATURES_remove = " wayland vulkan 3g"
+DISTRO_FEATURES:remove = " wayland vulkan 3g"
 
 # Specify license white list
 LICENSE_FLAGS_WHITELIST = "commercial"
 
 # Specify version for tracking
-CONF_VERSION = "1"
+CONF_VERSION = "2"

@@ -30,7 +30,7 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     protobuf-dev  \
 "
 
-TOOLCHAIN_HOST_TASK_append = " \
+TOOLCHAIN_HOST_TASK:append = " \
     nativesdk-cmake \
     nativesdk-protobuf \
     nativesdk-grpc \
