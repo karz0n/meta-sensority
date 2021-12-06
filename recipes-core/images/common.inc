@@ -8,4 +8,5 @@ CORE_IMAGE_EXTRA_INSTALL_append = "\
     mosquitto \
     mosquitto-clients \
     grpc \
+    protobuf \
 "

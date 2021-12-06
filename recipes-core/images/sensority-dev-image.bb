@@ -26,6 +26,14 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     boost-dbg \
     grpc-dev \
     grpc-dbg \
+    protobuf-dbg  \
+    protobuf-dev  \
+"
+
+TOOLCHAIN_HOST_TASK_append = " \
+    nativesdk-cmake \
+    nativesdk-protobuf \
+    nativesdk-grpc \
 "
 
 require common.inc
