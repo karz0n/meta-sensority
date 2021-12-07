@@ -34,6 +34,7 @@ TOOLCHAIN_HOST_TASK:append = " \
     nativesdk-cmake \
     nativesdk-protobuf \
     nativesdk-grpc \
+    nativesdk-grpc-compiler \
 "
 
 require common.inc
